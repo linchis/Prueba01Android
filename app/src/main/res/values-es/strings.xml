@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PruebaAndroid</string>
+    <string name="titulo">Arreglar errores</string>
+    <string name="opA">Primer número</string>
+    <string name="opB">Segundo número</string>
+    <string name="calc">Calcular</string>
+    <string name="name">Introduce nombre</string>
+    <string name="showText">Mostrar nombre</string>
+</resources>
