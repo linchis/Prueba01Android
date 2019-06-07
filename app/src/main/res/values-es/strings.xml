@@ -7,4 +7,15 @@
     <string name="calc">Calcular</string>
     <string name="name">Introduce nombre</string>
     <string name="showText">Mostrar nombre</string>
+    <string name="sumar">Sumar</string>
+    <string name="restar">Restar</string>
+    <string name="multiplicar">Multiplicar</string>
+    <string name="dividir">Dividir</string>
+    <string name="calcular">Calcular</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="title_activity_calculadora">Calculadora</string>
+    <string name="operando_1">Operando 1</string>
+    <string name="operando_2">Operando 2</string>
+    <string name="title_activity_jsonlistview">JSON ListView</string>
+    <string name="title_activity_detallenoticia">Detalle Noticia - Categorias</string>
 </resources>

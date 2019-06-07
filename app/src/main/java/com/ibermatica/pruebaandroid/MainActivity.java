@@ -1,5 +1,6 @@
 package com.ibermatica.pruebaandroid;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText etOpA, etOpB, etNombre;
     private TextView tvNombre, tvResultado = null;
-    private Button btCalcular;
+    private Button btCalcular, btnCalculadora, btnListView;
 
 
     @Override
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         etNombre = findViewById(R.id.etNombre);
 
         btCalcular = findViewById(R.id.btCalculate);
+        btnCalculadora = findViewById(R.id.btnCalculadora);
+        btnListView = findViewById(R.id.btnListView);
         /*
         ((View) btCalcular).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +42,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 multiplicar();
+            }
+        });
+
+        btnCalculadora.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent (view.getContext(), Calculadora.class);
+                startActivityForResult(intent, 0);
+                finish();
+            }
+        });
+        btnListView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent (view.getContext(), JsonListView.class);
+                startActivityForResult(intent, 0);
+                finish();
             }
         });
     }
